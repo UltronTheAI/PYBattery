@@ -21,16 +21,7 @@
                         <div class="percentage"></div>
                     </div>
                 </div>
-                <div class="percent">
-                    <script>
-                        let per = document.querySelector('.percentage');
-                            let per1 = document.querySelector('.percent');
-                        navigator.getBattery().then(function (bat) {
-                                per.style.width = bat.level * 100 + '%';
-                                per1.innerHTML = bat.level * 100 + '%';
-                            });
-                    </script>
-                </div>
+                <div class="percent">0%</div>
             </div>
         </div>
     </section>
